@@ -44,4 +44,11 @@ while game_running:
     print(f'Player1 is {player1}, Player2 is {player2}')
     time.sleep(2)
     board_builder()
-    
+    while True:
+        try:
+            player1_input = int(input(f'Choose where to play (1, 2, ..., 9)'))
+            break
+        except Exception:
+            print('Must be a number between 1-9')
+            time.sleep(2)
+
