@@ -1,5 +1,7 @@
 board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',]
 
+winning_combinations = ['012', '345', '678', '036', '147', '258', '048', '642']
+
 game_running = False
 
 def board_builder():
