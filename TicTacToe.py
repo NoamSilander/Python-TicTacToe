@@ -1,5 +1,5 @@
 import time
-board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',]
+board = ['1', '2', '3', '4', '5', '6', '7', '8', '9',]
 
 winning_combinations = ['012', '345', '678', '036', '147', '258', '048', '642']
 
@@ -41,6 +41,7 @@ while game_running:
             player1 = 'O'
             player2 = 'X'
             break
-
-
+    print(f'Player1 is {player1}, Player2 is {player2}')
+    time.sleep(2)
     board_builder()
+    
